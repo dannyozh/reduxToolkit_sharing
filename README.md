@@ -23,6 +23,7 @@ It is Redux's <b>official, opinionated</b> toolset for <i>effcient</I> Redux dev
 - Type: Types of ICreateDormPatient, ResponseMessage were defined in a separate patientTypes.ts file
 
 - Reducer:
+  &nbsp
   ![alt text](./screenshots/reducer_eg_1.png)
 
 - Action types require me to refer to a types defined in a previous file. In my reducer, I need to reference the actions defined in the action file.
