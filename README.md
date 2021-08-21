@@ -36,6 +36,8 @@ It is Redux's <b>official, opinionated</b> toolset for <i>effcient</I> Redux dev
 - What it is: An API that bakes actions into the reducer :cake:
 - Consider the example below:
 
+  ![alt text](./screenshots/slice_example.png)
+
 - createSlice takes in an object with 3 main options:
   - name (of Slice)
   - initialState (of reducer)
@@ -44,6 +46,10 @@ It is Redux's <b>official, opinionated</b> toolset for <i>effcient</I> Redux dev
 #### Cool Things about createSlice
 
 1. **`createSlice` will automatically generate action creators** that correspond to each case reducer function we provide
+
+![alt text](./screenshots/domainAction_example.png)
+
+![alt text](./screenshots/domainAction_saga.png)
 
 2. `createSlice` uses a library called [Immer](https://immerjs.github.io/immer/) inside.**Immer tracks all the changes you've tried to make, and then uses that list of changes to return a safely immutably updated value**, as if you'd written all the immutable update logic by hand.
 
